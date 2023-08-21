@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic Elements example with CSS</title>
+    <style>
+        body {
+           font-family: Aril, sans-serif;
+           margin: 0;
+           padding: 0; 
+        } 
+        header {
+            background-color: #333;
+            color:white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        nav ul {
+            lust-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a{
+            color:white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+    <body>
+
+        <nav>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+             <h1>Welcome to our Website</h1>
+        </header>
+        <div class="container">
+
+            <main>
+                <section>
+                <h2>About Us</h2>
+                <p>We are a company dedicated to providing high-quality products and services.</p>
+                </section>
+
+                <article>
+                    <h2>Latest Article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <figure>
+                        <img src="placeholder-image.jpg"
+                alt="Example Article Image">
+                        <figcaption>An example article image<figcaption>
+                    </figure>
+                </article>
+            </main>
+            <aside>
+                <h2>Related Links</h2>
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Company Name. All rights reserved.</p>
+        </footer>
+                </body>
+                </html>
+</head>
+</html>
